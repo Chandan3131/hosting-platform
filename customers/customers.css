@@ -1,0 +1,48 @@
+.test{
+    font-size: 1.25rem;
+    margin: 3.2rem 0rem;
+}
+
+.test_image_container{
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.5);
+}
+.test_image{
+    width: 100%;
+    vertical-align: top;
+}
+.test_info{
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    padding: 1.5rem 3rem;
+    text-align: right;
+}
+.test_name{
+    color: rgb(231, 99, 99);
+}
+.test_subtitle{
+    color: rgb(151, 148, 148);
+    font-size: 1.5rem;
+}
+.test_text{
+    font-family: sans-serif;
+}
+.test_subtitle a{
+    text-decoration: none;
+    color: inherit;
+}
+.clearfix{
+    clear: both;
+}
+#customer-2 .test_image_container{
+    float: right;
+}
+#customer-2 .test_info{
+    text-align: left;
+    position: relative;
+    top: 3.5rem;
+
+}

@@ -1,0 +1,86 @@
+main{
+    padding: 2rem 0px;
+}
+.background{
+    background: url(../images/plans-background.jpg);
+    background-size: 100%;
+    background-position: 0% 25%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+
+
+}
+.package{
+    width: 80%;
+    margin: 16px 0;
+    border: 4px solid rgb(16, 148, 71);
+    border-left: none;
+    position: relative;
+    
+}
+.package:active,.package:hover{
+    border-color: rgb(175, 91, 91);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.package a{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    padding: 2rem;
+}
+
+.package__badge{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 1.25rem;
+    color: white;
+    background-color: rgb(180, 26, 26);
+    padding: 1rem;
+    font-size: 1rem;
+    border: 3px solid green;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.package__subtitle{
+    color: rgb(114, 114, 114);
+}
+
+.package__info{
+    border: 2px solid rgb(34, 75, 34);
+    background-color: white;
+    color:rgb(34, 75, 34) ;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+.clearfix{
+    clear: both;
+}
+
+#plus{
+    background-color: rgba(153, 216, 255,0.5);
+}
+#free{
+    background-color: rgba(177, 255, 177,0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid rgb(16, 148, 71);
+    text-align: right;
+}
+
+#free:hover,#free:active{
+    border-left-color: rgb(175, 91, 91);
+}
+#premium{
+    background-color: rgba(48, 102, 48,0.95);
+}
+
+#premium .package__subtitle{
+    color: rgb(68, 65, 65);
+}
+#premium .package__title{
+    color: white;
+}
